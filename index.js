@@ -3,6 +3,8 @@ import bodyParser from "body-parser";
 import cors from "cors"; // Import CORS middleware
 
 const app = express();
+app.use(cors()); // Allow all origins for now. You can configure specific origins if needed.
+// Other middleware and routes
 const port = 10000;
 
 // Use CORS middleware
