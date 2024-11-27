@@ -1,0 +1,17 @@
+{
+  "name": "shop-reviews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "body-parser": "^1.20.3",
+    "node-fetch": "^3.3.2"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC"
+}
